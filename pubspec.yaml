@@ -1,6 +1,7 @@
 name: native_extension_template
 version: 0.0.1
 description: A cross-platform boilerplate for Dart native extension projects.
+homepage: https://github.com/tejainece/native_extension_template
 author: Ravi Teja Gudapati <tejainece@gmail.com>
 
 dependencies:
