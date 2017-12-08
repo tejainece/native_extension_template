@@ -1,4 +1,5 @@
-#include <string.h>
+#include <stdlib.h>
+#include <string>
 #include <dart_api.h>
 
 /// Handles error
@@ -66,10 +67,12 @@ Dart_NativeFunction callResolver(Dart_Handle name, int argc,
 	const char* cname;
 	handleError(Dart_StringToCString(name, &cname));
 
-	if (strcmp("get5", cname) == 0)
+	std::string sname(cname);
+
+	if (std::string(cname) == "get5")
 		result = get5;
 
-	if (strcmp("add", cname) == 0)
+	if (std::string(cname) == "add")
 		result = add;
 	return result;
 }

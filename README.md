@@ -13,5 +13,25 @@ This repository serves a boilerplate for cross-platform native extension develop
 
 # Todo
 
-+ [ ] Support windows
+## Features
 + [ ] Support MacOS
+
+## Docs
+
+### Linux
+
++ [ ] Installing build tools
++ [ ] Setting up eclipse
++ [ ] Copying the shared library
+
+### Windows
+
++ [ ] Installing build tools
++ [ ] Setting up eclipse
++ [ ] Copying the shared library
+
+### MacOS
+
++ [ ] Installing build tools
++ [ ] Setting up eclipse
++ [ ] Copying the shared library
