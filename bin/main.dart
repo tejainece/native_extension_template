@@ -1,4 +1,4 @@
-import 'package:native_extension_template/dart_native_extension.dart';
+import 'package:native_extension_template/native_extension_template.dart';
 
 main(List<String> args) {
   print(get5());
